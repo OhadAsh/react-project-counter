@@ -1,0 +1,21 @@
+.Counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Counter .buttons button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Counter .buttons button:hover {
+  background-color: #61dafb;
+  color: #000;
+}
